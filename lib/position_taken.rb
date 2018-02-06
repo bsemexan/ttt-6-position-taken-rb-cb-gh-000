@@ -3,5 +3,5 @@ def position_taken?(board, index)
   return false if board[index] = ""
   return false if board.index = " "
   return false if board.index = nil
-  return true if board.index = "X" || board.index = "O"
+  return true if board[index] = "X" || board[index] = "O"
 end
